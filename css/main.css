@@ -17,3 +17,15 @@ ul {
     margin: 0;
     padding: 0
 }
+
+.desktopNav ul li{
+    display: inline-block;
+}
+header {
+    position: fixed;
+}
+
+#hero {
+    height: 100vh;
+    background: grey;
+}
