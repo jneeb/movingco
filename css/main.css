@@ -29,12 +29,16 @@ h1 {
 	position: relative;
 	height: 150px;
 	width: 100%;
-	background-color: #262626;
+	background-image: url("../images/hookBg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .h_cont {
 	position: absolute;
 	height: 100%;
 	width: 100%;
+	background-color: rgba(38, 38, 38, 0.85);
 }
 .h_text {
 	position: relative;
@@ -49,6 +53,15 @@ h1 {
 
 /*** Services ***/
 
+.services {
+	position: relative;
+	height: 300px;
+	width: 100%;
+}
 .s_cont {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
 	text-align: center;
 }
