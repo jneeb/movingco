@@ -198,6 +198,10 @@ p {
 .logo.scrolled {
 	opacity: 1;
 }
+.logo.scroll.open {
+	opacity: 1;
+	z-index: 3;
+}
 .mobileNav {
 	position: fixed;
 	height: 100%;

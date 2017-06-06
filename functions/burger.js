@@ -3,9 +3,11 @@ $(document).ready(function () {
 		if ($(".burger").hasClass("open")) {
 			$(this).removeClass("open");
 			$(".mobileNav").removeClass("open");
+			$(".logo:eq(0)").removeClass("open");
 		} else {
 			$(this).addClass("open");
 			$(".mobileNav").addClass("open");
+			$(".logo:eq(0)").addClass("open");
 		}
 	});
 });
