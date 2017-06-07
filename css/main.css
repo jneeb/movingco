@@ -237,7 +237,13 @@ p {
 	color: #fa8128;
 }
 .contactText {
-	line-height: 2;
+	line-height: 1.5;
+	font-weight: 400;
+	font-size: 24px;
+}
+.numberLink {
+	color: #fa8128;
+	font-size: 133%;
 }
 .banner {
 	position: relative;
@@ -249,10 +255,16 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.banner.prep {
+	background-image: url("../images/prep.jpg");
+}
 .bannerCont {
 	position: relative;
 	height: 100%;
 	width: 100%;
+}
+.bannerCont.prep {
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .bannerText {
 	position: relative;
@@ -277,6 +289,17 @@ p {
 .blogTitle {
 	color: #fa8128;
 }
+.infoCont {
+	position: absolute;
+	bottom: 4%;
+	right: 4%;
+	width: 95%;
+	text-align: right;
+}
+.info {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
 @media only screen and (min-width: 550px) {
 	.heroTextCont {
 		left: 66%;
@@ -294,7 +317,7 @@ p {
 		height: 45px;
 	}
 	.contactText {
-		font-size: 42px;
+		font-size: 32px;
 	}
 	.burger {
 		top: 45px;

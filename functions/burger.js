@@ -13,10 +13,12 @@ $(document).ready(function () {
 });
 var navToggle = document.getElementsByClassName("navToggle");
 var mNav = document.getElementsByClassName("mNav");
+var logo = document.getElementsByClassName("logo");
 for (var i = mNav.length - 1; i >= 0; i--) {
 	mNav[i].onclick = function() {
 		navToggle[0].classList.toggle("open");
 		navToggle[1].classList.toggle("open");
+		logo[0].classList.toggle("open");
 	}
 }
 var scroll = document.getElementsByClassName("scroll");
