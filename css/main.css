@@ -232,6 +232,10 @@ p {
 .contactText {
 	line-height: 2;
 }
+.banner {
+	height: 66%;
+	width: 100%;
+}
 @media only screen and (min-width: 550px) {
 	.heroTextCont {
 		left: 66%;
