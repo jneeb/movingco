@@ -136,6 +136,13 @@ p {
 	font-weight: 400;
 	margin: 0 0 45px 0
 }
+.blogHead {
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-weight: 400;
+	margin: 0 0 45px 0;
+	padding: 0 10% 0 10%;
+}
 .blog {
 	color: #fa8128;
 }
@@ -233,8 +240,42 @@ p {
 	line-height: 2;
 }
 .banner {
+	position: relative;
+	top: -20px;
 	height: 66%;
 	width: 100%;
+	background-image: url("../images/sad_1.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bannerCont {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.bannerText {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	font-weight: 400;
+}
+.blogLink {
+	color: #fa8128;
+}
+.next {
+	position: absolute; 
+	bottom: 20px;
+	left: 20px;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.blogTitle {
+	color: #fa8128;
 }
 @media only screen and (min-width: 550px) {
 	.heroTextCont {
